@@ -3,6 +3,8 @@ body {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
+button:focus {outline:0;}
+
 #hello, #welcome {
   position: fixed;
   top: 50%;
@@ -21,7 +23,7 @@ body {
   transform: translate(-50%, -30%);
   min-width: 60%;
   min-height: 60%;
-  display: none;
+  /* display: none; */
 }
 
 #profile-picture {
@@ -48,4 +50,56 @@ body {
 .title {
   color: #6C757D;
   font-size: 40px;
+}
+
+.text {
+  color: #6C757D;
+  font-size: 20px;
+}
+
+.icon {
+  max-height: 40px;
+  vertical-align: sub;
+}
+
+.cilsy {
+  max-height: 22px;
+  /* vertical-align:; */
+}
+
+.invert {
+  -webkit-filter: invert(1);
+}
+
+.button {
+  color: white;
+  border-radius: 10px;
+  font-size: 30px;
+  width: 19%;
+}
+
+.magenta {
+  background-color: #e1306c;
+  border-color: #e1306c;
+}
+
+.black {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.blue {
+  background-color: #2ba8e2;
+  border-color: #2ba8e2;
+}
+
+.green {
+  background-color: #00ab6c;
+  border-color: #00ab6c;
+}
+
+@media only screen and (max-width: 1200px) {
+    .btn-text {
+        display: none;
+    }
 }
