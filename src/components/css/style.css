@@ -23,7 +23,7 @@ button:focus {outline:0;}
   transform: translate(-50%, -30%);
   min-width: 60%;
   min-height: 60%;
-  /* display: none; */
+  display: none;
 }
 
 #profile-picture {
