@@ -1,79 +1,92 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>lukmanfreedom</title>
-        <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="src/components/css/style.css">
-    </head>
+<html lang="en">
+  <head>
+    <title>lukmanfreedom</title>
 
-    <body>
-        <!-- Hello -->
-        <div id="hello">
-            Hello !
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+      .icon {
+        max-height: 30px;
+        /* vertical-align: sub; */
+      }
+      .invert {
+        -webkit-filter: invert(1);
+      }
+    </style>
+  </head>
+
+  <body style="background-color:RGB(239,239,239)">
+    <div class="jumbotron" style="background-color: RGB(239,239,239)">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 mt-5">
+            <h1 class="display-4">
+              Hi, I'm <span class="text-primary">Lukman</span>
+            </h1>
+
+            <h1 class="display-4">
+              Web App Developer.
+            </h1><br>
+
+            <h1 class="lead">
+              Building web-based applications that can help others in completing their work is
+              <br> what I enjoy about my work. I am also interested in
+              <span class="text-primary">exploring new worlds</span>.
+            </h1><br>
+
+            <button type="button" class="btn btn-primary">
+              See what i've done!
+            </button>
+          </div>
+
+          <div class="col-sm-4 mt-5">
+            <img src="src/assets/profil.png" style="height: 300px; border-radius: 50%">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="text-center">
+        <h1 class="lead">
+          You can reach me via email <span class="text-primary">lukmanfreedom@gmail.com</span>
+          <br> or find me on social media
+        </h1>
+      </div><br>
+
+      <div class="row">
+        <div class="col-sm-3 mt-1">
+          <a href="http://www.instagram.com/lukmanfreedom/" role="button" class="btn btn-dark btn-block" style="background-color:RGB(228,127,163);border:RGB(228,127,163)">
+            <img src="src/assets/instagram-logo.png" class="icon invert"> Instagram
+          </a>
         </div>
 
-        <div id="welcome">
-            Welcome to my personal page
+        <div class="col-sm-3 mt-1">
+          <a href="https://twitter.com/lukmanfreedom" role="button" class="btn btn-dark btn-block" style="background-color:#1DA1F2;border:#1DA1F2">
+            <img src="src/assets/twitter-logo.png" class="icon invert"> Twitter
+          </a>
         </div>
 
-        <!-- Main -->
-        <div id="container">
-            <img src="src/assets/profil.png" id="profile-picture">
-
-            <div class="title">
-                <br>Hi !,
-                <br>I am Lukman
-                <br>Web Developer based in Bandung, Indonesia.
-            </div>
-
-            <p class="text">
-                Building web-based applications that can help others in completing their work is
-                what I enjoy about my work. <br>
-                I am also interested in exploring new worlds.
-            <p>
-
-            <p class="text">I'm taking photos, creating tutorials and writing articles about web technology.</p>
-            <p class="text">If you have some questions;</p>
-            <p class="text">lukmanfreedom@gmail.com</p>
-
-            <br>
-
-            <a href="http://www.instagram.com/lukmanfreedom/">
-                <button type="button" class="button magenta">
-                    <img src="src/assets/instagram-logo.png" class="icon invert"> <span class="btn-text">Instagram</span>
-                </button>
-            </a>
-
-            <a href="http://www.github.com/lukmanfreedom/">
-                <button class="button black">
-                    <img src="src/assets/github-logo.png" class="icon invert"> <span class="btn-text">Github</span>
-                </button>
-            </a>
-
-            <a href="http://www.codepen.io/lukmanfreedom/">
-                <button class="button black">
-                    <img src="src/assets/codepen-logo.png" class="icon invert"> <span class="btn-text">Codepen</span>
-                </button>
-            </a>
-
-            <a href="https://medium.com/@lukmanfreedom">
-                <button class="button green">
-                    <img src="src/assets/medium-logo.png" class="icon invert"> <span class="btn-text">Medium</span>
-                </button>
-            </a>
-
-            <a href="">
-                <button class="button blue"><img src="src/assets/cilsy-logo.png" class="cilsy"> <span class="btn-text">Cilsy</span></button>
-            </a>
+        <div class="col-sm-3 mt-1">
+          <a href="http://www.github.com/lukmanfreedom/" role="button" class="btn btn-dark btn-block" style="background-color:#292F33;border:#292F33">
+            <img src="src/assets/github-logo.png" class="icon invert"> Github
+          </a>
         </div>
 
-        <!-- Footer -->
-        <div id="footer">
-            Made with <i class="small material-icons" id='footer-icon'>favorite</i> by lukmanfreedom
+        <div class="col-sm-3 mt-1">
+          <a href="https://medium.com/@lukmanfreedom" role="button" class="btn btn-dark btn-block" style="background-color:RGB(74,241,143);border:RGB(74,241,143)">
+            <img src="src/assets/medium-logo.png" class="icon invert"> Medium
+          </a>
         </div>
-
-        <script src="src/components/js/jquery.min.js"></script>
-        <script src="src/components/js/animation.js"></script>
-    </body>
+      </div>
+    </div>
+  </body>
 </html>
